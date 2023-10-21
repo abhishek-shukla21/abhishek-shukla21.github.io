@@ -68,39 +68,39 @@ footer a:hover {
 
 /* HOME
 ------------------------------------*/
-.home {
-    background: url(../images/bg-home-office-studio.jpg) no-repeat;
+/* .home {
+    background: url(../images/Cloudy.svg) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
-}
-.home .content-wrapper {
+} */
+/* .home .content-wrapper {
     flex: 1 0 auto;
-}
-.content-bg {
+} */
+/* .content-bg {
     background: rgb(255 255 255 / 0.9);
     padding: 30px;
-}
-@media screen and (max-width:650px){
+} */
+/* @media screen and (max-width:650px){
     .home .content-wrapper {
         padding: 10px;
     }
     .content-bg {
         padding: 20px;
     }
-}
+} */
 
 
 /* RESUME
 ------------------------------------*/
-.resume header::before {
-    background: url(../images/bg-home-office-studio.jpg) center;
+/* .resume header::before {
+    background: url(../images/Cloudy.svg) center;
     background-size: cover;
     content: "";
     display: block;
-    height: 375px;
-}
-.resume-section {
+    height: 895px;
+} */
+/* .resume-section {
     margin-bottom: 50px;
 }
 .resume-section h2 {
@@ -127,7 +127,7 @@ footer a:hover {
     h2 {
         font-size: 2.6rem;
     }
-}
+} */
 
 
 /* Projects

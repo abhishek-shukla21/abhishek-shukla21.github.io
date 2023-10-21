@@ -135,3 +135,13 @@ footer {
     }
 
 }
+
+/*  */
+
+.carousel-cell {
+    width: 100%;
+  }
+  
+  .carousel-cell:before {
+    display: block;
+  }

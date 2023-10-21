@@ -9,12 +9,42 @@
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/abhishek-shukla21', text: 'Book a Meeting', color: '#090909', textColor: '#ffffff', branding: true }); }</script>
     <link rel="stylesheet" href="css/resume.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script> -->
     <title>Abhishek Shukla</title>
+    <script type="text/javascript">
+      function toggle() {
+        var head = document.getElementById("header");
+        head.classList.toggle("active");
+      }
+    </script>
 </head>
-<body class="resume">
-    <a class="btn download-link" href="Abhishek_Shukla_CV.pdf" download>Download CV</a>
+<body class="resume ">
     <header>
       <div class="content-wrapper">
+        
         <h1>Abhishek Shukla</h1>
         <h2>Developing Developer</h2>
         <p>Hi, I'm a Web developer passionate about creating seamless and user-friendly Web Applications. 
@@ -27,7 +57,9 @@
                 I enjoy working in a team environment and leveraging my strengths to build high-quality software that exceeds client expectations.
             </p>
             <p>I'm excited to continue growing my skills as a Web developer and contribute to innovative projects and I look forward to discussing how I can add value to your Organisation. 
-            </p>        
+            </p>   
+            <a class="btn download-link" href="Abhishek_Shukla_CV.pdf" download>Download CV</a>
+     
       </div>
     </header>
 
@@ -37,41 +69,41 @@
         <p>View selected projects below. More information can be found on my <a href="https://github.com/abhishek-shukla21" target="_blank">GitHub</a>.</p>
 
         <div class="project-wrapper">
-          <section class="project-item">
+          <!-- <section class="project-item">
             <img src="images/project-decoded-youtube-500px.png" srcset="images/project-decoded-youtube-1000px.png 2x" alt="Decoded by Christina YouTube video thumbnails">
             <h3>MERN Auth App</h3>
             <p>A MERN stack boilerplate for building secure and user-friendly web applications with authentication and authorization features.</p>
-            <a class="btn" href="#" target="_blank">View Site</a>
-            <a class="btn" href="#" target="_blank">View Code</a>
+            <a class="btn" href="https://auth-app-mern.netlify.app/" target="_blank">View Site</a>
+            <a class="btn" href="https://github.com/abhishek-shukla21/mern-auth" target="_blank">View Code</a>
+          </section> -->
+
+          <section class="project-item">
+            <img src="images/project-courses-500px.png" srcset="images/bookshelf.png" alt="List of course names and thumbnails">
+            <h3>Personal Bookshelf</h3>
+            <p>A React application allowing users to search for books using the <code>Open Library API</code> and maintain a personal bookshelf in the browser using <code>localStorage</code></p>
+            <a class="btn" href="https://white-coast-06fdc0410.3.azurestaticapps.net/" target="_blank">View Site</a>
+            <a class="btn" href="https://github.com/abhishek-shukla21/personal-bookshelf" target="_blank">View Code</a>
           </section>
 
           <section class="project-item">
-            <img src="images/project-courses-500px.png" srcset="images/project-courses-1000px.png 2x" alt="List of course names and thumbnails">
-            <h3>Smart Concerned Classes</h3>
-            <p>Developed content and instruction for various web development courses including CSS Essential Training, Getting Your Website Online, Getting Your First Job as a Web Developer and more.</p>
-            <a class="btn" href="#" target="_blank">View Site</a>
-            <a class="btn" href="#" target="_blank">View Code</a>
-            
-          </section>
-
-          <section class="project-item">
-            <img src="images/project-troy-podcast-500px.png" srcset="images/project-troy-podcast-1000px.png 2x" alt="The TROY podcast website homepage">
-            <h3>Topic Modeling Web App</h3>
-            <p>Web App for </p>
-            <a class="btn" href="#" target="_blank">View Site</a>
-            <a class="btn" href="#" target="_blank">View Code</a>
-            
+            <img src="images/curr.png" srcset="images/project-troy-podcast-1000px.png 2x" alt="The TROY podcast website homepage">
+            <h3>Currency Converter</h3>
+            <p>A React currency converter app lets users input an amount in one currency, choose another currency, and instantly see the converted amount using up-to-date exchange rates.</p>
+            <a class="btn" href="https://convert-currency-react.netlify.app/" target="_blank">View Site</a>
+            <a class="btn" href="https://github.com/abhishek-shukla21/react/tree/main/currencyConverter" target="_blank">View Code</a>            
           </section>
           
           <section class="project-item">
-            <img src="images/project-the-wire-ipsum-500px.png" srcset="images/project-the-wire-ipsum-1000px.png 2x" alt="The Wire Ipsum quote generator website">
-            <h3>Certificate Generator</h3>
-            <p>After coming back from teaching a JavaScript workshop, I felt inspired to create something just for fun. I realized that of all the placeholder text/lorem ipsum generators available, there was nothing for HBO’s The Wire fans. Generate some content for your projects today. (Warning: Contains explicit language.)</p>
+            <img src="images/password.png" srcset="images/project-the-wire-ipsum-1000px.png 2x" alt="The Wire Ipsum quote generator website">
+            <h3>Password Generator</h3>
+            <p>
+              A React password generator app creates strong, customizable passwords for users, leveraging React's interactive interface capabilities.</p>
             <a class="btn" href="#" target="_blank">View Site</a>
             <a class="btn" href="#" target="_blank">View Code</a>
           </section>
         </div>
       </section>
+      <!-- Work Section -->
        <section class="resume-section">
         <h2>Work Experience</h2>
         <p>My complete work history is available on <a href="https://www.linkedin.com/in/abhishek-shukla21/" target="_blank">LinkedIn</a>.</p>
@@ -79,16 +111,19 @@
         <section class="work-item">
           <div class="work-details">
             <h3>Research Intern</h3>
-            <p>Self-employed</p>
+            <p>Cyber Physical Systems, Samarth eGov</p>
             <p>Jan 2012 - Present</p>
           </div>
           
           <div class="work-summary">
-            <p>Creating tech content focused on HTML, CSS and other front-end related topics. Offerings include online courses, a YouTube channel, written tutorials, workshops and training.</p>
+            <p>Developed Web Applications that integrated Machine Learning, Data Analysis, and NLP to enhance research
+              efforts using Flask and MERN Architecture. </p>
+           <p>Created detailed documentation, aiding in understanding and enhancing both the application and research
+              outcomes. Utilized Azure for web development, contributing to improved application and research effectiveness</p>
           </div>
         </section>
   
-        <section class="work-item">
+        <!-- <section class="work-item">
           <div class="work-details">
             <h3>Summer Intern </h3>
             <p>Hackveda</p>
@@ -103,7 +138,7 @@
               <li>Implemented instructor training across 20+ Canadian chapters, focusing on creating inclusive and engaging learning environments.</li>
             </ul>
           </div>
-        </section>
+        </section> -->
   
         <section class="work-item">
           <div class="work-details">
@@ -113,12 +148,11 @@
           </div>
 
           <div class="work-summary">
-            <p>front-end development for the in-house safety inspection software.</p>
             <p>Key contributions:</p>
             <ul>
                 <li>Developed a result portal for the national Science & Creativity Program</li>
                 <li>Designing Database for National Science & Creativy Program</li>
-                <li>Python | PHP | AWS | HTML | CSS</li>
+                <li> <code>Python | PHP | AWS | HTML | CSS</code></li>
             </ul>
           </div>
         </section>
@@ -157,7 +191,8 @@
             <a target="_blank" href="https://abhishek-shukla21.medium.com/">.....see more</a>
         </ul>
     </section>
-    <section>
+
+    <!-- <section>
         <h2>Acheivements</h2>
         <ul>
             <li>Microsoft Learn Student Ambassador (Beta)</li>
@@ -165,7 +200,8 @@
             <li>Completed <i>30 Days of Google Cloud </i>: Cloud Engineering, and Data Science Track </li>
             <li>Effective Altruism Introductory Fellow</li>
         </ul>
-    </section>
+    </section> -->
+
     <section>
         <h2>Certifications</h2>
         <ul>
@@ -175,7 +211,41 @@
             <li>Git Essential Training : The Basics</li>
         </ul>
     </section>
-    <section>
+
+    <!-- <section class="section projects">
+      <div class="carousel" data-flickity='{"wrapAround":true, "autoPlay":true, "imagesLoaded": true}'>
+          <div class="carousel-cell">
+              <div class="card carousel-card">
+                  <div class="certimage"><img src="images/certificates/"></img></div>
+                  <div class="certdetails">
+                      <h2>Pseudospaces Hackathon Winner - Third prize organised by WI Tech India in association with MSI</h2>
+                      <p>In this hackathon, we created a e-learning application for student developers named edukit where they can learn different courses, users can complete a
+          course, play quizzes, get certificate on course completion,
+          bookmark, & create their own playlist of courses.</p></div>
+              </div>
+          </div>
+          <div class="carousel-cell">
+              <div class="card carousel-card">
+                  <div class="certimage"><img src="images/certificates/1.Microsoft_Python/1.Microsoft_Python-1.png"></img></div>
+                  <div class="certdetails">
+                      <h2>Microsoft Technology Associate : Python (MTA-381) (July 29, 2019)</h2>
+                      <p>In this Responsive Web Design Certification, I learnt the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.</p></div>
+              </div>
+          </div>
+          <div class="carousel-cell">
+              <div class="card carousel-card">
+                <div class="certimage"><img src=""></img></div><br> 
+                  <div class="certdetails">
+                      <h2>Create First Web App Using Python and Flask.</h2>
+                      <p></p></div>
+              </div>
+          </div>
+      </div>
+  </section>  -->
+
+
+
+    <!-- <section>
         <h2>Voluntering & Leadership</h2>
         <ul>
             <li><b>Volunteer at EAGxIndia:</b>collaborating with like-minded individuals to drive positive change and create meaningful impact in our community.</li>
@@ -183,9 +253,34 @@
             <li><b>Hackathon Coordinator at Annual Fest Envisage'22:</b> Led the coordination and organization of Envisage'22's flagship hackathon, overseeing a team of passionate individuals  and fostering an environment for innovation, creativity, and skill development among participants.</li>
             <li><b>International Organisation of Software Developers</b>: Memeber at IOSD </li>
         </ul>   
-    </section>
+    </section> -->
+
+    <br><br><br>
+    <footer>
+      <p>© 2023 Abhishek Shukla</p>               
+          <ul class="socials">              
+            <li>
+              <a href=""><img src="images/icons8-github-48.png" alt="Abhishek Shukla GitHub profile" target="_blank"></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/abhishek-shukla21" target="_blank"><img src="images/icons8-youtube-48.png" alt="My YouTube channel"></a>
+            </li>
+            <li>
+              <a href="mailto:shuklaabhishek1221@gmail.com"><img src="images/icons8-gmail-48.png" target="_blank" alt="Abhishek Shukla Gmail"></a>
+            </li>
+            <li>
+              <a href="https://medium.com/@abhishek-shukla21" target="_blank"><img src="images/icons8-medium-48.png" alt="My Medium homepage"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/abhishek-shukla21" target="_blank"><img src="images/icons8-linkedin-48.png" alt="My LinkedIn profile"></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/sarcaster_21" target="_blank"><img src="images/icons8-twitter-48.png" alt="My Twitter profile"></a>
+            </li>
+          </ul>
+    </footer>
     </main>
-     <footer>
+     <!-- <footer>
         <p>© 2023 Abhishek Shukla</p>               
             <ul class="socials">              
               <li>
@@ -207,6 +302,9 @@
                 <a href="https://twitter.com/sarcaster_21" target="_blank"><img src="images/icons8-twitter-48.png" alt="My Twitter profile"></a>
               </li>
             </ul>
-      </footer>
+      </footer> -->
+      <script src="/scripts/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
